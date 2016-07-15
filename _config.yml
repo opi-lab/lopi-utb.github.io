@@ -5,7 +5,10 @@ description: >
   optical metrology, 3D reconstruction, medical imaging, and digital image processing.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://lopi-utb.github.io/" # the base hostname & protocol for your site
+url: "http://lopi-utb.github.io/lopi/" # the base hostname & protocol for your site
+
+source: /
+destination: _site
 
 author:
   fullname: Andres Marrugo
