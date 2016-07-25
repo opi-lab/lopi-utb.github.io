@@ -1,11 +1,14 @@
 # Site settings
-title: Lopi
+title: OPI∙Lab
 description: >
-  We are an applied optics and image processing lab focused on 
-  optical metrology, 3D reconstruction, medical imaging, and digital image processing.
+  OPI∙Lab: Laboratorio de óptica y procesamiento de imágenes.
+  
+# Sómos un l
+# We are an applied optics and image processing lab focused on
+# optical metrology, 3D reconstruction, medical imaging, and digital image processing.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://lopi-utb.github.io/lopi/" # the base hostname & protocol for your site
+url: "http://lopi-utb.github.io/" # the base hostname & protocol for your site
 
 #source: /
 # destination: /_site/
