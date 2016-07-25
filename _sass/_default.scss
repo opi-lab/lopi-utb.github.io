@@ -303,3 +303,70 @@ strong {
         font-size: 18px;
     }
 }
+
+/* Custom */
+.go-home { text-align: center; }
+
+.pubmed_clear { clear: both; }
+
+.pubmed_article { margin-bottom: 15px; }
+
+.pubmed_author { float: left; margin-right: 5px; }
+
+.pubmed_publicationDetails { clear: both; font-style: italic; }
+
+.pubmed_abstractExpander, .pubmed_detailsExpander { float: left; margin-right: 5px; }
+
+.pubmed_abstract { font-size: 14px; }
+
+.team { text-align: justify; }
+
+.team__stretch { display: inline-block; width: 100%; line-height: 0; }
+
+.person { width: 220px; display: inline-block; position: relative; vertical-align: top; margin: 10px 0; }
+
+.person img { margin: 0; }
+
+.details { list-style: none; padding: 0px; }
+
+.details__attribute { text-align: left; }
+
+.details--name { font-size: 1.4em; font-weight: bold; }
+
+.details--title { font-style: italic; font-size: 1.2em; margin: 10px 0; }
+
+.details--social { font-size: 1.3em; }
+
+.details--interests { margin: 10px 0; }
+
+@media (max-width: 574px) { .team { text-align: center; } }
+.project { margin-bottom: 50px; overflow: hidden; }
+
+.project__container { float: left; max-width: 650px; }
+
+.project__header { margin-bottom: 5px; }
+
+.project__title { font-size: 26px; font-weight: bold; }
+
+.project__social { font-size: 20px; line-height: 26px; float: right; }
+
+.project__summary { text-align: justify; }
+
+.project__image { font-size: 100px; width: 110px; float: right; text-align: center; }
+
+.project__image a { text-decoration: none; }
+
+@media (max-width: 800px) { .project__title { font-size: 22px; font-weight: bold; }
+  .project__image { display: none; } }
+.map { width: 600px; height: 450px; }
+
+@media (max-width: 600px) { .map { width: 300px; height: 150px; } }
+.index { overflow: hidden; }
+.index:after { content: ""; clear: both; }
+
+.index__bumper { font-size: 20px; line-height: 26px; max-width: 450px; float: left; }
+
+.index__twitter { float: right; height: 250px; overflow: auto; }
+
+@media (max-width: 800px) { .index__twitter { display: none; }
+  .index__bumper { text-align: justify; max-width: none; float: none; } }
