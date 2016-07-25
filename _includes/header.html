@@ -1,10 +1,14 @@
 <header class="header">
     <div class="navigation">
         <a href="/" class="logo">{{ site.title }}</a>
+		<!-- <a href="/" class="logo"><img src="/images/logo_50dpi.png" alt="" width="" height="100px" border="0" /></a> -->
 
         <ul class="menu">
             <li class="menu__entry"><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
             <li class="menu__entry"><a href="{{ '/' | prepend: site.baseurl }}">Blog</a></li>
+            <li class="menu__entry"><a href="{{ '/publications' | prepend: site.baseurl }}">Publicaciones</a></li>
+            <li class="menu__entry"><a href="{{ '/team' | prepend: site.baseurl }}">Equipo</a></li>
+            <li class="menu__entry"><a href="{{ '/projects' | prepend: site.baseurl }}">Proyectos</a></li>
         </ul>
     </div>
 
@@ -23,5 +27,12 @@
     </ul>
 	
 <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+<style>
+    a {
+        color: #A52A2A;
+/*		color: #127ABD;*/
+    }
+</style>
 	
 </header>
