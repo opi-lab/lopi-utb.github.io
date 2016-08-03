@@ -11,6 +11,7 @@ a {
     text-decoration: none;
 
     &:hover {
+        text-decoration: underline;
 
     }
 }
@@ -118,34 +119,16 @@ strong {
 }
 
 /* =Titles */
-.page-title {
-    margin-top:100px;
-    margin-bottom:125px;
-    text-align: center;
-}
+.page-title__text { font-weight: 700; font-size: 70px; }
 
-.page-title__text {
-    font-weight: 700;
-    font-size: 70px;
-}
+.page-title__subtitle { font-weight: 400; font-size: 22px; color: #828282; }
 
-.page-title__subtitle {
-    font-weight: 400;
-    font-size: 22px;
-    color: $cloudy;
-}
+.post-title { margin-bottom: 110px; }
 
-.post-title {
-    margin-bottom: 110px;
-}
+.post-title__text { font-size: 40px; }
 
-.post-title__text {
-    font-size: 40px;
-}
+.post-title__subtitle { font-size: 20px; }
 
-.post-title__subtitle {
-    font-size: 20px;
-}
 
 /* =Post teasers */
 
@@ -224,22 +207,11 @@ strong {
 
 
 /* =Post page */
-.about {
-    color: $cloudy;
-    margin-top: 70px;
-    text-align: center;
-    line-height: 24px;
-}
+.about { color: #828282; margin-top: 70px; text-align: center; line-height: 24px; }
 
-.about__devider {
-    font-size: 20px;
-    margin-bottom: 50px;
-    letter-spacing: 9.09px;
-}
+.about__devider { font-size: 20px; margin-bottom: 50px; letter-spacing: 9.09px; }
 
-.about__text {
-    font-size: 18px;
-}
+.about__text { font-size: 18px; }
 
 #disqus_thread {
     margin-top: 100px;
@@ -366,7 +338,198 @@ strong {
 
 .index__bumper { font-size: 20px; line-height: 26px; max-width: 450px; float: left; }
 
-.index__twitter { float: right; height: 250px; overflow: auto; }
+.index__showcase { float: right; height: 250px; overflow: auto; }
 
-@media (max-width: 800px) { .index__twitter { display: none; }
+@media (max-width: 800px) { .index__showcase { display: none; }
   .index__bumper { text-align: justify; max-width: none; float: none; } }
+  
+/* headings */
+
+.bigtitle {
+font-size: 60px; 
+line-height: 55px;  
+font-weight: 100;
+/* Museo */ 
+}
+
+.title {
+font-size: 36px; 
+line-height: 40px;  
+font-weight: 100;
+/* Museo */ 
+}
+
+.bighead {
+font-size: 32px;
+font-weight: 300;
+line-height:36px;
+/* Museo */ 
+}
+
+.head {
+font-size: 24px;
+font-weight: 300;
+line-height:30px;
+/* Museo */ 
+}
+
+.smallhead {
+font-size: 19px;
+font-weight: 300;
+line-height: 23px;
+/* Museo */ 
+}
+
+.note {
+font-size: 15px;
+font-weight: 300;
+line-height: 18px;
+/* Museo */ 
+}
+
+.smallnote {
+font-size: 13px;
+font-weight: 300;
+line-height: 16px;
+/* Museo */ 
+}
+
+/*.text-gray {
+color: @gray-light;
+}
+
+.text-dark-gray {
+color: @gray;
+}*/
+
+
+/* other */
+
+body {
+    font-weight: 300;
+}
+
+p {
+    font-weight: 300;
+}
+
+.hugespacer {
+    height: 50px;
+}
+
+.bigspacer {
+    height: 20px;
+}
+
+.spacer {
+    height: 10px;
+}
+
+.smallspacer {
+    height: 5px;
+}
+
+a.off { 
+    color: inherit; 
+}
+
+pre {
+    overflow-x: auto;
+}
+
+pre code {
+    overflow-wrap: normal;
+    white-space: pre;
+}
+
+/*table {
+    .table;
+    .table-striped;
+}*/
+
+/*img {
+    .img-responsive;
+}*/
+
+img.offset {
+    float: right; 
+    margin: 12px 0px 10px 15px;
+}
+
+img.avatar {
+    width: 20px;
+}
+
+.post img {
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+/*blockquote {
+    .text-gray;
+    p {
+    font-size: (@font-size-base * 1.00);
+    }
+}*/
+
+/*.breadcrumb {
+    padding: 0px 0px;
+    background-color: @body-bg;
+    > li {
+        &+li:before {
+            padding: 0px;
+            content: "\00a0@{breadcrumb-separator}\00a0";
+        }
+        &+li:after {
+            padding: 0px;
+        }
+    }
+}*/
+
+.feedbox {
+    height: 320px;
+    overflow: hidden;    
+    -webkit-mask-image: -webkit-gradient(linear, left 85%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));   
+/*  -webkit-box-shadow: inset 0 -30px 10px -10px white; */
+/*     -moz-box-shadow: inset 0 -30px 10px -10px white; */
+/*          box-shadow: inset 0 -30px 10px -10px white; */
+}
+
+.postbox {
+    min-height: 80px;
+}
+
+.paperbox {
+    min-height: 140px;
+}
+
+.projectbox {
+    min-height: 120px;
+}
+
+.memberbox {
+    min-height: 200px;
+}
+
+.talkbox {
+    min-height: 100px;
+}
+
+.titlebox {
+    min-width: 300px;    
+}
+
+.handlebox {
+    height: 20px;
+    display: table-cell; 
+    vertical-align: middle;
+}
+
+.pad-right {
+    padding-right: 10px;
+}
+
+.pad-left {
+    padding-left: 10px;
+}
