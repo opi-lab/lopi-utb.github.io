@@ -4,11 +4,31 @@
 		<!-- <a href="/" class="logo"><img src="/images/logo_50dpi.png" alt="" width="" height="100px" border="0" /></a> -->
 
         <ul class="menu">
-            <li class="menu__entry"><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
-            <li class="menu__entry"><a href="{{ '/' | prepend: site.baseurl }}">Blog</a></li>
-            <li class="menu__entry"><a href="{{ '/publications' | prepend: site.baseurl }}">Publicaciones</a></li>
-            <li class="menu__entry"><a href="{{ '/team' | prepend: site.baseurl }}">Equipo</a></li>
-            <li class="menu__entry"><a href="{{ '/projects' | prepend: site.baseurl }}">Proyectos</a></li>
+            <!-- <li class="menu__entry"><a href="{{ '/' | prepend: site.baseurl }}">Inicio</a></li> -->
+            {% if page.permalink == "/about/" %}
+            <li class="menu__entry current"><a href="{{ '/about' | prepend: site.baseurl }}" style="border-color: purple">Acerca</a></li>
+            {% else %}
+            <li class="menu__entry"><a href="{{ '/about' | prepend: site.baseurl }}" style="border-color: purple">Acerca</a></li>            
+            {% endif %}
+            
+            {% if page.permalink == "/publications/" %}
+            <li class="menu__entry current"><a href="{{ '/publications' | prepend: site.baseurl }}" style="border-color: orange">Publicaciones</a></li>
+            {% else %}
+            <li class="menu__entry"><a href="{{ '/publications' | prepend: site.baseurl }}" style="border-color: orange">Publicaciones</a></li>
+            {% endif %}
+            
+            {% if page.permalink == "/team/" %}
+            <li class="menu__entry current"><a href="{{ '/team' | prepend: site.baseurl }}" style="border-color: green">Equipo</a></li>
+            {% else %}
+            <li class="menu__entry"><a href="{{ '/team' | prepend: site.baseurl }}" style="border-color: green">Equipo</a></li>
+            {% endif %}
+            
+            {% if page.permalink == "/projects/" %}
+            <li class="menu__entry current"><a href="{{ '/projects' | prepend: site.baseurl }}" style="border-color: dodgerblue">Proyectos</a></li>
+            {% else %}
+            <li class="menu__entry"><a href="{{ '/projects' | prepend: site.baseurl }}" style="border-color: dodgerblue">Proyectos</a></li>
+            {% endif %}
+            <li class="menu__entry"><a href="http://isp-utb.github.io/seminario/" target="_blank" style="border-color: red">Seminario</a></li>
         </ul>
     </div>
 
@@ -26,7 +46,7 @@
         {% endif %}
     </ul>
 	
-<link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+<!-- <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'> -->
 
 <style>
     a {
@@ -34,5 +54,17 @@
 /*		color: #127ABD;*/
     }
 </style>
+
+<!-- include jQuery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+<!-- include Cycle2 -->
+<script src="{{ "/assets/js/jquery.cycle2.min.js" | prepend: site.baseurl }}"></script>
+
+
+
+
+
+<!-- <script src="path/to/your/copy/of/jquery.cycle2.js"></script> -->
 	
 </header>
