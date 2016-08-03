@@ -1,6 +1,6 @@
 ---
 layout: project
-title: 
+title: Reconstrucción 3D para el diagnóstico médico
 short: Reconstrucción 3D para el diagnóstico médico
 span: 2016 - 2018
 funding: Colciencias
