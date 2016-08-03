@@ -1,0 +1,59 @@
+---
+layout: project
+title: Proyectos
+subtitle: Investigación
+permalink: /projects/
+categories: 
+ - projects
+---
+
+
+<h1 id="activos">Activos</h1>
+			
+
+{% for project in site.categories.projects reversed %}
+{% if project.active == true %}
+
+<!-- <ul>
+    <li>{{ project.title }}</li>
+</ul> -->
+
+    <div class="project">
+        <div class="project__container">
+            <div class="project__header">
+                <span class="project__title">
+                    
+                    {{ project.short }}
+                        <!-- <a href="http://scikit-bio.org" target="_blank">scikit-bio</a> -->
+                    
+                </span>
+                <span class="project__social">
+                
+                {% if project.youtube %}
+                    <a href="https://www.youtube.com/watch?v=ZpgkRQooGqo" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                {% endif %}
+                
+                {% if project.github %}
+                    <a href="https://github.com/biocore/scikit-bio" target="_blank"><i class="fa fa-github"></i></a>
+                {% endif %}
+                
+                {% if project.twitter %}
+                    <a href="https://twitter.com/scikitbio" target="_blank"><i class="fa fa-twitter"></i></a>
+                {% endif %}
+                
+                </span>
+            </div>
+            <div class="project__summary">
+                 <strong>{{ project.title }}.</strong>
+                {{ project.summary }}
+
+            </div>
+        </div>
+    
+        <img class="project__image" src="/assets/projects/skbio.png" />
+    
+    </div>
+    
+{% endif %}
+{% endfor %}
+

@@ -1,0 +1,56 @@
+---
+layout: team
+title: Equipo
+subtitle: 
+permalink: /team/
+categories: 
+ - team
+---
+
+<div class='team'>
+    
+{% for member in site.categories.team reversed %}
+    <div class='person'>
+        <img src="{{ member.image }}"/>
+        
+        <ul class='details'>
+            <li class='details__attribute details--name'>{{ member.title }}</li>
+            <li class='details__attribute details--title'>{{ member.position }}</li>
+            <li class='details__attribute details--social'>
+            
+            {% if member.cv %}
+                <a href="{{ member.cv }}" target='_blank' title="{{member.title}}'s Curriculum Vitae"><i class="fa fa-graduation-cap"></i></a>
+                {% endif %}
+            
+            
+                <a href="https://twitter.com/gregcaporaso" target='_blank' title="Greg Caporaso's Twitter"><i class="fa fa-twitter"></i></a>
+            
+            
+                <a href="https://github.com/gregcaporaso" target='_blank' title="Greg Caporaso's GitHub"><i class="fa fa-github"></i></a>
+                
+                {% if member.website %}
+                 <a href="{{ member.website }}" target='_blank' title="{{member.title}}'s Website"><i class="fa fa-link"></i></a>
+                 {% endif %}
+            
+            
+            </li>
+            
+            <li class='details__attribute details--interests'>
+                
+                {% if member.interests %}
+                {% for interest in member.interests %}
+            
+                <span class='attribute__interest'>{{ interest }}</span><br />
+                
+                {% endfor %}
+                {% endif %}
+            
+            </li>
+            
+        </ul>
+        
+    </div>
+{% endfor %}
+    
+
+        </div>
