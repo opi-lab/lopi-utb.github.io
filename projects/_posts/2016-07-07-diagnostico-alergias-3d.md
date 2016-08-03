@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Diseño y desarrollo de un dispositivo para el diagnóstico digital 3D de alergias mediante prueba cutánea
-short: Alergias 3D
+short: Reconstrucción 3D para el diagnóstico médico
 span: 2016 - 2018
 funding: Colciencias
 principal: Andres Marrugo
