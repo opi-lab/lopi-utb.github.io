@@ -5,6 +5,7 @@ position: Profesor Asociado
 handle: 
 github: 
 image: /images/photo-lenny.jpg
+cv: /pdfs/team/lenny-romero-cv.pdf
 interests:
 - Image Processing
 - Optical Metrology
