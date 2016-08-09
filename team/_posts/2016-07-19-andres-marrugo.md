@@ -7,7 +7,7 @@ email: agmarrugo@utbvirtual.edu.co
 twitter: agmarrugo
 github: agmarrugo
 scholar: RIi-1pAAAAAJ
-image: https://robohash.org/andres-marrugo.png
+image: /images/photo-andre.jpg
 cv: /pdfs/team/trevor-bedford-cv.pdf
 website: http://andresmarrugo.net/
 interests:
