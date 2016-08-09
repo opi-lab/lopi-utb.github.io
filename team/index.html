@@ -22,12 +22,13 @@ categories:
                 <a href="{{ member.cv }}" target='_blank' title="{{member.title}}'s Curriculum Vitae"><i class="fa fa-graduation-cap"></i></a>
                 {% endif %}
             
-            
+            {% if member.twitter %}
                 <a href="https://twitter.com/{{ member.twitter }}" target='_blank' title="{{member.title}}'s Twitter"><i class="fa fa-twitter"></i></a>
+            {% endif %}
             
-            
+            {% if member.github %}
                 <a href="https://github.com/{{ member.github }}" target='_blank' title="{{member.title}}'s GitHub"><i class="fa fa-github"></i></a>
-                
+            {% endif %}
                 {% if member.website %}
                  <a href="{{ member.website }}" target='_blank' title="{{member.title}}'s Website"><i class="fa fa-link"></i></a>
                  {% endif %}
