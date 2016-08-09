@@ -23,10 +23,10 @@ categories:
                 {% endif %}
             
             
-                <a href="https://twitter.com/gregcaporaso" target='_blank' title="Greg Caporaso's Twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://twitter.com/{{ member.twitter }}" target='_blank' title="{{member.title}}'s Twitter"><i class="fa fa-twitter"></i></a>
             
             
-                <a href="https://github.com/gregcaporaso" target='_blank' title="Greg Caporaso's GitHub"><i class="fa fa-github"></i></a>
+                <a href="https://github.com/{{ member.github }}" target='_blank' title="{{member.title}}'s GitHub"><i class="fa fa-github"></i></a>
                 
                 {% if member.website %}
                  <a href="{{ member.website }}" target='_blank' title="{{member.title}}'s Website"><i class="fa fa-link"></i></a>
