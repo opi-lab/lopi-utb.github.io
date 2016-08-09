@@ -16,11 +16,11 @@ url: "https://opi-lab.github.io/" # the base hostname & protocol for your site
 author:
   fullname: Andres Marrugo
   # googleplus: https://www.google.com/+MotaquillahMaddane
-  github: agmarrugo
-  twitter: agmarrugo
+  github: opi-lab
+  twitter: drmarrugo
   # disqus: your_disqus_forum_shortname
 
-# google_analytics: 'UA-XXXXXXXX-X'
+google_analytics: 'UA-82208710-1'
 
 # Syntax highlighting
 highlightstyle: ''
