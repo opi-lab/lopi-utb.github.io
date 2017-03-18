@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Lenny Romero
-position: Profesor asociado
+position: Profesora asociada
 handle: 
 github: 
 image: /images/photo-lenny.jpg
