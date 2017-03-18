@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Hernando Altamar
-position: Profesor Asistente / Estudiante de doctorado
+position: Profesor asistente / Estudiante de doctorado
 handle: 
 email: haltamar@unitecnologica.edu.co
 twitter: 
