@@ -1,6 +1,6 @@
 ---
 layout: publication
-title: Retinal Image Analysis: Image Processing and Feature Extraction Oriented to the Clinical Task
+title: Retinal Image Analysis&colon; Image Processing and Feature Extraction Oriented to the Clinical Task
 authors: Andrés G. Marrugo and María S. Millán
 date: 2017-03-31 10:00
 main_url: /pdfs/Opt._Pura_Apl._Marrugo_2017.pdf
