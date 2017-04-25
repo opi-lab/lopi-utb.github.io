@@ -40,6 +40,7 @@ categories:
                 {% endcase %}
                 
                     <td class="publication">
+                        <meta name="citation_title" content={{ entry.title }}>
                         <span class="pubtitle">
                             {% assign url = entry.main_url %}
                             {% if url %}
