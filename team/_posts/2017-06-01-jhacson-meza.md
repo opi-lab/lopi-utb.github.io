@@ -7,7 +7,7 @@ email: jhacsonmeza121@gmail.com
 twitter: 
 github: 
 scholar: 
-image: /images/photo-jhacson.png
+image: /images/photo-jhacson.jpg
 cv: /pdfs/team/cv-jhacson-meza.pdf
 ---
 
