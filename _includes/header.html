@@ -1,21 +1,7 @@
 <header class="header">
     <div class="navigation">
-        <a href="/" class="logo">{{ site.title }}
+        <a href="/" class="logo">{{ site.title }}</a>
 		<!-- <a href="/" class="logo"><img src="/images/logo_50dpi.png" alt="" width="" height="100px" border="0" /></a> -->
-      <ul class="social-links">
-        {% if site.author.github %}
-            <a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
-                <i class="fa fa-github"></i>
-            </a>
-        {% endif %}
-
-        {% if site.author.twitter %}
-            <a href="https://twitter.com/{{ site.author.twitter }}" class="social-links__entry" target="_blank">
-                <i class="fa fa-twitter"></i>
-            </a>
-        {% endif %}
-     </ul>
-     </a>
             
         <ul class="menu">
             <!-- <li class="menu__entry"><a href="{{ '/' | prepend: site.baseurl }}">Inicio</a></li> -->
@@ -53,7 +39,22 @@
             <li class="menu__entry"><a href="http://github.com/opi-lab/lab-docs/wiki" target="_blank" style="border-color: gray">Wiki</a></li>
 	    <li class="menu__entry"><a href="/en" style="border-color: gray">English</a></li>
         </ul>
+        
     </div>
+    
+     <ul class="social-links">
+       {% if site.author.github %}
+           <a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
+               <i class="fa fa-github"></i>
+           </a>
+       {% endif %}
+
+       {% if site.author.twitter %}
+           <a href="https://twitter.com/{{ site.author.twitter }}" class="social-links__entry" target="_blank">
+               <i class="fa fa-twitter"></i>
+           </a>
+       {% endif %}
+    </ul>
 	
 <!-- <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'> -->
 
