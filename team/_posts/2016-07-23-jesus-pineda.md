@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Jesus Pineda
-position: Estudiante de pregrado
+position: Estudiante de maestria
 handle: 
 email: jesuspinedacastro@outlook.com
 twitter: 
