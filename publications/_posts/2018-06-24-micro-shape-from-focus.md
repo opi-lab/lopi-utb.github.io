@@ -3,7 +3,7 @@ layout: publication
 title: Microscopic Shape from Focus using White Light Interferometric Fringes
 authors: Hernando Altamar-Mercado, Alberto Pati&ntilde;o-Vanegas, Andrés G. Marrugo
 date: 2018-06-24 10:05
-main_url: /pdfs/microscopic-shape-focus-2018.pdf
+main_url: https://doi.org/10.1364/3D.2018.JTu4A.19
 venue: OSA Imaging and Applied Optics Congress
 principal: Andres Marrugo
 active: true
