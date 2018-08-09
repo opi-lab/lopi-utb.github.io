@@ -8,7 +8,7 @@ description: >
 # optical metrology, 3D reconstruction, medical imaging, and digital image processing.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://opi-lab.github.io/" # the base hostname & protocol for your site
+url: "https://opi-lab.github.io" # the base hostname & protocol for your site
 
 #source: /
 # destination: /_site/
