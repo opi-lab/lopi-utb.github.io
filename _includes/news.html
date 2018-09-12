@@ -2,7 +2,7 @@
 <h4>Noticias</h4>
 
 {% for article in site.data.news limit:4 %}
-<p><strong>{{ article.date }}</strong> 
+<p>{{ article.date }}<br>
 {{ article.headline }}</p>
 {% endfor %}
 
