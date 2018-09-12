@@ -9,5 +9,5 @@ permalink: /allnews/
 
 {% for article in site.data.news %}
 {{ article.date }} <br>
-{{ article.headline }}
+<p>{{ article.headline }}</p>
 {% endfor %}
