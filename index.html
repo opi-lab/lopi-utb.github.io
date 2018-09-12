@@ -6,7 +6,8 @@ sitemap:
   priority: 0.9
 ---
 
-<div class="index">
+<!-- <div class="index"> -->
+<div class="col-sm-8">
     <div class="index__bumper">
         Somos un laboratorio de óptica aplicada y procesamiento de imágenes enfocados en metrología óptica, imagenología médica, reconstrucción 3D, microscopía y procesamiendo digital de imágenes. 
         <!-- We are an applied optics and image processing lab focused on optical metrology, biomedical imaging, 3D-reconstruction and digital image processing. -->
@@ -20,6 +21,11 @@ sitemap:
     </div>
         </div>
 </div>
+
+<div id="newsid" class="col-sm-4" >
+{% include news.html %}
+</div>
+
 
 <!-- <ul class="list-posts">
     {% for post in site.posts %}
@@ -41,6 +47,6 @@ sitemap:
 <p><em>{{ article.headline }}</em></p>
 {% endfor %}
 
-<h4><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h4>
+<h4><a href="{{ site.url }}/allnews.html">... see all News</a></h4>
 
     </div> -->
