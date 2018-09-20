@@ -310,6 +310,6 @@ table {
 
 .news-teaser__text { font-size: 16px; }
 
-.news-teaser__headline { font-size: 16px; }
+.news-teaser__headline { font-size: 16px; line-height: 20px;}
 
 .news-teaser__date { font-size: 16px; float: left; vertical-align: middle; color: #828282; }
