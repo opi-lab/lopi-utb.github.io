@@ -302,3 +302,14 @@ table {
     vertical-align: top;
     border-top: 1px solid #eceeef;
 }
+
+/* =News teasers */
+.list-news { list-style-type: none; padding: 0px; }
+
+.news-teaser { margin-bottom: 45px; font-weight: 700; }
+
+.news-teaser__text { font-size: 16px; }
+
+.news-teaser__title { font-size: 18px; }
+
+.news-teaser__date { font-size: 16px; float: right; vertical-align: middle; color: #828282; }

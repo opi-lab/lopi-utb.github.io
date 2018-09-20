@@ -1,11 +1,28 @@
 <div class="well">
 <h3>Noticias</h3>
 
+
+
 {% for article in site.data.news limit:4 %}
-<p>{{ article.date }}<br>
-{{ article.headline }}</p>
+<span class="news-teaser__date">{{article.date}}</span>
+<span class="post-teaser__title">{{ article.headline }}</span>
+<!-- <p>{{ article.date }}<br> -->
+<!-- {{ article.headline }}</p> -->
 {% endfor %}
 
 <h4><a href="{{ site.url }}/allnews/">... ver todas las Noticias.</a></h4>
     
     </div>
+    
+    
+    
+    <!-- <ul class="list-posts">
+        {% for post in site.posts %}
+            <li class="post-teaser">
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                    <span class="post-teaser__title">{{ post.title }}</span>
+                    <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
+                </a>
+            </li>
+        {% endfor %}
+    </ul> -->
