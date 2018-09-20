@@ -4,10 +4,12 @@
 
 
 {% for article in site.data.news limit:4 %}
-<p>
+
+<div class="list-news">
 <span class="news-teaser__date">{{article.date}}</span> <br>
-<span class="post-teaser__headline">{{ article.headline }}</span>
-</p>
+<span class="post-teaser__headline">{{ article.headline }}</span>    
+</div>
+
 <!-- <p>{{ article.date }}<br> -->
 <!-- {{ article.headline }}</p> -->
 {% endfor %}
