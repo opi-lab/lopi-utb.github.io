@@ -18,4 +18,4 @@ permalink: /teaching/
 - [Visión artificial](https://opi-lab.github.io/computer-vision/)
 - [Metrología Óptica](http://andresmarrugo.net/optical-metrology/)
 - [Tópicos Especiales Ingeniería de Materiales](http://opi-lab.github.io/topics-materials/)
- [Seminario estadística](http://opi-lab.github.io/seminario-estadistica/)
+- [Seminario estadística](http://opi-lab.github.io/seminario-estadistica/)
