@@ -8,7 +8,7 @@ twitter: agmarrugo
 github: agmarrugo
 scholar: TH8nMmUAAAAJ
 image: /images/photo-andre.jpg
-cv: /pdfs/team/cv-andresmarrugo-es.pdf
+cv: /pdfs/team/cv-andresmarrugo-en.pdf
 website: http://andresmarrugo.net/
 interests:
 - Image Processing
