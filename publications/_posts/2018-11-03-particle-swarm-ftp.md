@@ -1,6 +1,6 @@
 ---
 layout: publication
-title: An Experimental Study on Deformation Analysis of an Indented Pipe via Fringe Projection Profilometry and Digital Image Correlation
+title: A Particle Swarm Optimization Approach to Log-Gabor Filtering in Fourier Transform Profilometry
 authors: Jesús Pineda, Jhacson Meza, Andrés G. Marrugo, Raúl Vargas, and Lenny A. Romero
 date: 2018-11-03 10:00
 main_url: /pdfs/log-gabor-filter-laop-2018.pdf
