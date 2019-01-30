@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Jhacson Meza
-position: Estudiante de pregrado
+position: Estudiante de maestría
 handle: 
 email: jhacsonmeza121@gmail.com
 twitter: 

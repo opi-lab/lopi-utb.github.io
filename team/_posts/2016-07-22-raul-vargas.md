@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Raul Vargas
-position: Estudiante de maestría
+position: Estudiante de doctorado
 handle: 
 email: raulandres_16@hotmail.com
 twitter: 
