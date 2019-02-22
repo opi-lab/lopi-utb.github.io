@@ -3,7 +3,7 @@ layout: publication
 title: Robust 3D Surface Recovery by Applying a Focus Criterion in White Light Scanning Interference Microscopy
 authors: Hernando Altamar-Mercado, Alberto Patiño-Vanegas, and Andrés G. Marrugo
 date: 2019-02-01 10:00
-main_url: https://www.osapublishing.org/ao/upcoming_pdf.cfm?id=346098
+main_url: https://arxiv.org/abs/1901.08153
 venue: Applied Optics
 principal: Andres Marrugo
 active: true
