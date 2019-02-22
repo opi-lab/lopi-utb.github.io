@@ -7,6 +7,9 @@ permalink: /teaching/
 
 ## Cursos de posgrado  ##
 
+### 2019
+- [Optical metrology](http://opi-lab.github.io/optical-metrology-2019/)
+
 ### 2018
 - [Machine Learning for Signal Processing](http://opi-lab.github.io/ml4sp/)
 - [Visión artificial](http://opi-lab.github.io/computer-vision-python/)
