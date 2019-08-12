@@ -8,6 +8,7 @@ permalink: /teaching/
 ## Cursos de posgrado  ##
 
 ### 2019
+- [Special Topics in Computer Vision](http://opilab.utb.edu.co/topics-computer-vision/)
 - [Optical metrology](http://opi-lab.github.io/optical-metrology-2019/)
 
 ### 2018
