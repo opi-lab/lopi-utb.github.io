@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Juan Sierra
-position: Estudiante de pregrado
+position: Estudiante de maestría
 handle: 
 email: juanse1998@hotmail.com
 twitter: 
