@@ -5,7 +5,7 @@ subtitle:
 permalink: /teaching/
 ---
 
-## Cursos cortos##
+## Cursos cortos ##
 
 ### 2019
 - [A Gentle Introduction to Scientific Writing](http://opilab.utb.edu.co/scientific-writing/)
