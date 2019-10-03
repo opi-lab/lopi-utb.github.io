@@ -1,14 +1,14 @@
 ---
 layout: member
-title: Juan Sierra
-position: Estudiante de maestría
+title: Camilo Naufal
+position: Estudiante de pregrado
 handle: 
-email: juanse1998@hotmail.com
+email: camilonauffalsalas@gmail.com
 twitter: 
 github: 
 scholar: 
-image: https://robohash.org/juan-sierra.png
-cv: /pdfs/team/cv-juan-sierra.pdf
+image: /images/photo-camilo.jpg
+cv: /pdfs/team/cv-camilo-naufal.pdf
 ---
 
 <!--I'm an Assistant Member at the [Fred Hutch](http://www.fredhutch.org/) in the [Vaccine and Infectious Disease Division](https://www.fhcrc.org/en/labs/vaccine-and-infectious-disease.html) and the [Computational Biology Program](http://labs.fhcrc.org/compbio/). I'm also an Affiliate Assistant Professor in the [Department of Epidemiology](http://depts.washington.edu/epidem/welcome) at the [University of Washington School of Public Health](http://sph.washington.edu/). I study the dynamics of virus populations.  How do strains spread through the world?  How do strains evolve in response to immune pressure?  And ultimately, what makes a strain successful?-->

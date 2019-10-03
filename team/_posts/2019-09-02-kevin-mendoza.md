@@ -1,7 +1,7 @@
 ---
 layout: member
-title: Juan Sierra
-position: Estudiante de maestría
+title: Kevin Mendoza
+position: Estudiante de pregrado
 handle: 
 email: kedameva@hotmail.com
 twitter: https://twitter.com/kevindavidmen18
