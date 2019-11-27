@@ -3,7 +3,7 @@ layout: member
 title: Hernando Altamar
 position: Profesor asistente / Estudiante de doctorado
 handle: 
-email: haltamar@unitecnologica.edu.co
+email: haltamar@utb.edu.co
 twitter: 
 github: 
 scholar: 
