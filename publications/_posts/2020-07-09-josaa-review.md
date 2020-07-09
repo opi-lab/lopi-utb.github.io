@@ -3,7 +3,7 @@ layout: publication
 title: State-of-the-art active optical techniques for three-dimensional surface metrology&#58; a review
 authors: Andres G. Marrugo, Feng Gao, and Song Zhang
 date: 2020-07-09 10:00
-main_url: 
+main_url: https://www.osapublishing.org/josaa/upcoming_pdf.cfm?id=398644
 venue: Journal of the Optical Society of America A
 principal: Andres Marrugo
 active: true
