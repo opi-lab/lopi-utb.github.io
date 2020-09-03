@@ -12,6 +12,9 @@ permalink: /teaching/
 
 ## Cursos de posgrado  ##
 
+### 2020
+- [Visión 3D](https://opi-lab.github.io/3d-vision-2020/)
+
 ### 2019
 - [Special Topics in Computer Vision](http://opilab.utb.edu.co/topics-computer-vision/)
 - [Optical metrology](http://opi-lab.github.io/optical-metrology-2019/)
