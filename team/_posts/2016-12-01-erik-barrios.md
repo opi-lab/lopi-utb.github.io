@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Erik Barrios
-position: Estudiante de maestría
+position: Estudiante de doctorado
 handle: 
 email: embm32@hotmail.com
 twitter: 
