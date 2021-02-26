@@ -16,6 +16,9 @@ permalink: /teaching/
 
 ## Cursos de posgrado  ##
 
+### 2021
+- [Machine Learning for Signal Processing](http://opilab.utb.edu.co/ml4sp-2021/)
+
 ### 2020
 - [Visión 3D](https://opi-lab.github.io/3d-vision-2020/)
 
