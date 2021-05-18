@@ -3,7 +3,7 @@ layout: publication
 title: Three-dimensional multimodal medical imaging system based on free-hand ultrasound and structured light
 authors: Jhacson Meza, Sonia H. Contreras-Ortiz, Lenny A. Romero, and Andres G. Marrugo
 date: 2021-05-05 10:00
-main_url: 
+main_url: http://opilab.utb.edu.co
 venue: Optical Engineering
 principal: Andres Marrugo
 active: true
