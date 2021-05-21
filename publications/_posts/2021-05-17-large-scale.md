@@ -3,7 +3,7 @@ layout: publication
 title: Method for large-scale structured-light system calibration
 authors: Andres G. Marrugo, Raul Vargas, Lenny A. Romero, and Song Zhang
 date: 2021-05-17 10:00
-main_url: http://opilab.utb.edu.co
+main_url: https://www.osapublishing.org/oe/fulltext.cfm?uri=oe-29-11-17316&id=451245
 venue: Optics Express
 principal: Andres Marrugo
 active: true
